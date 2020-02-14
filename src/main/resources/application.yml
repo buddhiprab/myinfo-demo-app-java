@@ -1,0 +1,15 @@
+server:
+  port: 3001
+
+logging:
+  level:
+    root: debug
+
+myinfo_app:
+  authorise_url: https://sandbox.api.myinfo.gov.sg/com/v3/authorise
+  token_url: https://sandbox.api.myinfo.gov.sg/com/v3/token
+  person_url: https://sandbox.api.myinfo.gov.sg/com/v3/person
+  callback_url: http://localhost:3001/callback
+  client_id: STG2-MYINFO-SELF-TEST
+  client_secret: 44d953c796cccebcec9bdc826852857ab412fbe2
+  attributes: uinfin,name,sex,race,nationality,dob,email,mobileno
