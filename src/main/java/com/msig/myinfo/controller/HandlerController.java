@@ -33,7 +33,7 @@ public class HandlerController {
         UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(authoriseUrl)
                 .queryParam("client_id", clientId)
                 .queryParam("attributes", attributes)
-                .queryParam("purpose", "Travel Application")
+                .queryParam("purpose", "My Application")
                 .queryParam("state", quotationId)
                 .queryParam("redirect_uri", callbackUrl);
 
