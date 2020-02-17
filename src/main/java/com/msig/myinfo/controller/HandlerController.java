@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.util.UriComponentsBuilder;
 
 @Controller
-public class TravelController {
+public class HandlerController {
     @Autowired
     MyInfoService myInfoService;
     @Value("${myinfo_app.authorise_url}")
